@@ -8,13 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* unsplash_travelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* unsplash_travelTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-unsplash_travel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-unsplash_travel.a */; };
+		0F8DD1DDCC8D4039BFD1240E /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11B2DAB63BF34DEBAAAE3B35 /* Poppins-ThinItalic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-unsplash_travel-unsplash_travelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-unsplash_travel-unsplash_travelTests.a */; };
+		227333A76C224753BC45C5D2 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E9331D656A54976A4E50751 /* Poppins-LightItalic.ttf */; };
+		2F6398F140824461A57D4383 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516929187BE04D67840E64CC /* Poppins-Light.ttf */; };
+		320C192CCD0D804451E7E526 /* libPods-unsplash_travel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6A3851263A55C70D62CB49 /* libPods-unsplash_travel.a */; };
+		40609437078C485783E5E2E1 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F7E4FE94C7C4C09AC62C2F0 /* Poppins-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84FB757D95FB4BA7B69D19F8 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCFC9D5305554E868B6937E1 /* Poppins-Thin.ttf */; };
+		938CF04628594D8BAECA2552 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 413F9B66E95E48F583666B48 /* Poppins-ExtraLightItalic.ttf */; };
+		940157A0E7BA4DC89B557A18 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 778E638217B04721A7F024BF /* Poppins-BoldItalic.ttf */; };
+		97FB468D753C48E5860B9AE5 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F07B817BB8CE466CA57A4155 /* Poppins-ExtraBoldItalic.ttf */; };
+		9B995C8803BD4639AC11F6C2 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D46629745F2D4FAF8DF98086 /* Poppins-BlackItalic.ttf */; };
+		9CDD4E2213484BF7B3D04A77 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CA03638254643E1ADFFDB86 /* Poppins-ExtraLight.ttf */; };
+		BD4F340062134EBF92CF22CD /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C3E31E3043D4EB58D8F6C58 /* Poppins-SemiBoldItalic.ttf */; };
+		C0F53BB2BB434A08978DDB7D /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39031DCF3AD64418B91BFB16 /* Poppins-Italic.ttf */; };
+		C95ED338AAB6D1B6AC6DA1B2 /* libPods-unsplash_travel-unsplash_travelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CB9A09329F0C543321C59E /* libPods-unsplash_travel-unsplash_travelTests.a */; };
+		D383F0A45C5841CB9FA29D24 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 072A7E030AA04C858B4476F8 /* Poppins-Black.ttf */; };
+		E16DE811BC824971BC177239 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323B19B095F24DE79ED10076 /* Poppins-Medium.ttf */; };
+		E2A3BCA30D494B169FB1EE3B /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E656942A2984639A1D4809A /* Poppins-MediumItalic.ttf */; };
+		E8618C3FC5FE4DA892ED2A30 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 702CD280A0A248F1BA86C7F5 /* Poppins-Bold.ttf */; };
+		F8D6FD8013964D23B8919DB8 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00EEAF9882CE49929F2D2722 /* Poppins-ExtraBold.ttf */; };
 		FA4086577DE8F05FA61BD68C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		FE85D9A6DFF94140A6091B76 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5503B9AA874A80939BCDBB /* Poppins-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +49,10 @@
 		00E356EE1AD99517003FC87E /* unsplash_travelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unsplash_travelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* unsplash_travelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unsplash_travelTests.m; sourceTree = "<group>"; };
+		00EEAF9882CE49929F2D2722 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		072A7E030AA04C858B4476F8 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		0F7E4FE94C7C4C09AC62C2F0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		11B2DAB63BF34DEBAAAE3B35 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* unsplash_travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unsplash_travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = unsplash_travel/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = unsplash_travel/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,14 +60,28 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = unsplash_travel/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = unsplash_travel/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = unsplash_travel/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-unsplash_travel-unsplash_travelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unsplash_travel-unsplash_travelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-unsplash_travel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unsplash_travel.debug.xcconfig"; path = "Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-unsplash_travel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unsplash_travel.release.xcconfig"; path = "Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-unsplash_travel-unsplash_travelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unsplash_travel-unsplash_travelTests.debug.xcconfig"; path = "Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-unsplash_travel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unsplash_travel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CB9A09329F0C543321C59E /* libPods-unsplash_travel-unsplash_travelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unsplash_travel-unsplash_travelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9331D656A54976A4E50751 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		2CA03638254643E1ADFFDB86 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		323B19B095F24DE79ED10076 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		39031DCF3AD64418B91BFB16 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		413F9B66E95E48F583666B48 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4C3E31E3043D4EB58D8F6C58 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		516929187BE04D67840E64CC /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		5BFAA91936931BAF4CBB7824 /* Pods-unsplash_travel-unsplash_travelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unsplash_travel-unsplash_travelTests.release.xcconfig"; path = "Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests.release.xcconfig"; sourceTree = "<group>"; };
+		647C87FA9AF75648FEDEEA2F /* Pods-unsplash_travel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unsplash_travel.debug.xcconfig"; path = "Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel.debug.xcconfig"; sourceTree = "<group>"; };
+		702CD280A0A248F1BA86C7F5 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		778E638217B04721A7F024BF /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7C5503B9AA874A80939BCDBB /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		7E656942A2984639A1D4809A /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = unsplash_travel/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-unsplash_travel-unsplash_travelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unsplash_travel-unsplash_travelTests.release.xcconfig"; path = "Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests.release.xcconfig"; sourceTree = "<group>"; };
+		A22AD7D348B81E189D0EFF64 /* Pods-unsplash_travel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unsplash_travel.release.xcconfig"; path = "Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel.release.xcconfig"; sourceTree = "<group>"; };
+		AF6A3851263A55C70D62CB49 /* libPods-unsplash_travel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unsplash_travel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBAC98E001A508BCA46C057 /* Pods-unsplash_travel-unsplash_travelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unsplash_travel-unsplash_travelTests.debug.xcconfig"; path = "Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D46629745F2D4FAF8DF98086 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F07B817BB8CE466CA57A4155 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../assets/fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FCFC9D5305554E868B6937E1 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-unsplash_travel-unsplash_travelTests.a in Frameworks */,
+				C95ED338AAB6D1B6AC6DA1B2 /* libPods-unsplash_travel-unsplash_travelTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-unsplash_travel.a in Frameworks */,
+				320C192CCD0D804451E7E526 /* libPods-unsplash_travel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,10 +139,35 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-unsplash_travel.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-unsplash_travel-unsplash_travelTests.a */,
+				AF6A3851263A55C70D62CB49 /* libPods-unsplash_travel.a */,
+				19CB9A09329F0C543321C59E /* libPods-unsplash_travel-unsplash_travelTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A5DC8E0071E49BB98788EEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				072A7E030AA04C858B4476F8 /* Poppins-Black.ttf */,
+				D46629745F2D4FAF8DF98086 /* Poppins-BlackItalic.ttf */,
+				702CD280A0A248F1BA86C7F5 /* Poppins-Bold.ttf */,
+				778E638217B04721A7F024BF /* Poppins-BoldItalic.ttf */,
+				00EEAF9882CE49929F2D2722 /* Poppins-ExtraBold.ttf */,
+				F07B817BB8CE466CA57A4155 /* Poppins-ExtraBoldItalic.ttf */,
+				2CA03638254643E1ADFFDB86 /* Poppins-ExtraLight.ttf */,
+				413F9B66E95E48F583666B48 /* Poppins-ExtraLightItalic.ttf */,
+				39031DCF3AD64418B91BFB16 /* Poppins-Italic.ttf */,
+				516929187BE04D67840E64CC /* Poppins-Light.ttf */,
+				1E9331D656A54976A4E50751 /* Poppins-LightItalic.ttf */,
+				323B19B095F24DE79ED10076 /* Poppins-Medium.ttf */,
+				7E656942A2984639A1D4809A /* Poppins-MediumItalic.ttf */,
+				0F7E4FE94C7C4C09AC62C2F0 /* Poppins-Regular.ttf */,
+				7C5503B9AA874A80939BCDBB /* Poppins-SemiBold.ttf */,
+				4C3E31E3043D4EB58D8F6C58 /* Poppins-SemiBoldItalic.ttf */,
+				FCFC9D5305554E868B6937E1 /* Poppins-Thin.ttf */,
+				11B2DAB63BF34DEBAAAE3B35 /* Poppins-ThinItalic.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -125,6 +186,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				4A5DC8E0071E49BB98788EEB /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -143,10 +205,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-unsplash_travel.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-unsplash_travel.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-unsplash_travel-unsplash_travelTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-unsplash_travel-unsplash_travelTests.release.xcconfig */,
+				647C87FA9AF75648FEDEEA2F /* Pods-unsplash_travel.debug.xcconfig */,
+				A22AD7D348B81E189D0EFF64 /* Pods-unsplash_travel.release.xcconfig */,
+				BFBAC98E001A508BCA46C057 /* Pods-unsplash_travel-unsplash_travelTests.debug.xcconfig */,
+				5BFAA91936931BAF4CBB7824 /* Pods-unsplash_travel-unsplash_travelTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -158,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "unsplash_travelTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				F35D3A29E4FF273429B490C6 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				809B59431C8A6B90717B2646 /* [CP] Embed Pods Frameworks */,
+				BE6D14C4BB269B5CD85F1AF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,13 +241,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "unsplash_travel" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FA0F9C29583F778378A468D5 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				6705242D980A2B3791F0B425 /* [CP] Embed Pods Frameworks */,
+				3D5F450345ECE6D1DCDC4507 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +309,24 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				FA4086577DE8F05FA61BD68C /* PrivacyInfo.xcprivacy in Resources */,
+				D383F0A45C5841CB9FA29D24 /* Poppins-Black.ttf in Resources */,
+				9B995C8803BD4639AC11F6C2 /* Poppins-BlackItalic.ttf in Resources */,
+				E8618C3FC5FE4DA892ED2A30 /* Poppins-Bold.ttf in Resources */,
+				940157A0E7BA4DC89B557A18 /* Poppins-BoldItalic.ttf in Resources */,
+				F8D6FD8013964D23B8919DB8 /* Poppins-ExtraBold.ttf in Resources */,
+				97FB468D753C48E5860B9AE5 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				9CDD4E2213484BF7B3D04A77 /* Poppins-ExtraLight.ttf in Resources */,
+				938CF04628594D8BAECA2552 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				C0F53BB2BB434A08978DDB7D /* Poppins-Italic.ttf in Resources */,
+				2F6398F140824461A57D4383 /* Poppins-Light.ttf in Resources */,
+				227333A76C224753BC45C5D2 /* Poppins-LightItalic.ttf in Resources */,
+				E16DE811BC824971BC177239 /* Poppins-Medium.ttf in Resources */,
+				E2A3BCA30D494B169FB1EE3B /* Poppins-MediumItalic.ttf in Resources */,
+				40609437078C485783E5E2E1 /* Poppins-Regular.ttf in Resources */,
+				FE85D9A6DFF94140A6091B76 /* Poppins-SemiBold.ttf in Resources */,
+				BD4F340062134EBF92CF22CD /* Poppins-SemiBoldItalic.ttf in Resources */,
+				84FB757D95FB4BA7B69D19F8 /* Poppins-Thin.ttf in Resources */,
+				0F8DD1DDCC8D4039BFD1240E /* Poppins-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +349,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		3D5F450345ECE6D1DCDC4507 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6705242D980A2B3791F0B425 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,7 +383,41 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		809B59431C8A6B90717B2646 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE6D14C4BB269B5CD85F1AF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35D3A29E4FF273429B490C6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,7 +439,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		FA0F9C29583F778378A468D5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,57 +459,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel/Pods-unsplash_travel-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-unsplash_travel-unsplash_travelTests/Pods-unsplash_travel-unsplash_travelTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -414,7 +494,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-unsplash_travel-unsplash_travelTests.debug.xcconfig */;
+			baseConfigurationReference = BFBAC98E001A508BCA46C057 /* Pods-unsplash_travel-unsplash_travelTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -441,7 +521,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-unsplash_travel-unsplash_travelTests.release.xcconfig */;
+			baseConfigurationReference = 5BFAA91936931BAF4CBB7824 /* Pods-unsplash_travel-unsplash_travelTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -465,11 +545,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-unsplash_travel.debug.xcconfig */;
+			baseConfigurationReference = 647C87FA9AF75648FEDEEA2F /* Pods-unsplash_travel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LW2N5TNNW;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = unsplash_travel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -493,11 +574,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-unsplash_travel.release.xcconfig */;
+			baseConfigurationReference = A22AD7D348B81E189D0EFF64 /* Pods-unsplash_travel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LW2N5TNNW;
 				INFOPLIST_FILE = unsplash_travel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
