@@ -1,0 +1,40 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "New York",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "description": "Uma grande cidade da América do Norte.Normalmente é conhecida como a capital dos Estados Unidos. Possui uma população estimada de 8,5 milhões de pessoas, sendo a maior população do mundo.Principais pontos turisticos são o Central Park, o Times Square e o Central Park Zoo."
+    },
+    {
+      "id": 2,
+      "name": "Paris",
+      "image": "https://plus.unsplash.com/premium_photo-1661919210043-fd847a58522d?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A cidade mais visitada do mundo, com 10,3 milhões de habitantes. É uma cidade global, com uma grande cultura e uma grande diversidade de comida.Principais pontos turisticos são a Torre Eiffel, o Louvre e a Catedral de Notre Dame."
+    },
+    {
+      "id": 3,
+      "name": "Tokyo",
+      "image": "https://images.unsplash.com/photo-1554797589-7241bb691973?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Uma cidade global, com uma grande cultura e uma grande diversidade de comida.Principais pontos turisticos são Toquio City Hall e Toquio Tower."
+    },
+    {
+      "id": 4,
+      "name": "Londres",
+      "image": "https://images.unsplash.com/photo-1581523002476-bc2fd2b2228a?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Londres é a capital do Reino Unido, com uma população estimada de 8,5 milhoes de pessoas.Principais pontos turisticos são a Tower Bridge, a Big Ben e a London Eye."
+    },
+    {
+      "id": 5,
+      "name": "Roma",
+      "image": "https://plus.unsplash.com/premium_photo-1675975678457-d70708bf77c8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Roma é a capital da Itália, com uma população estimada de 8,5 milhoes de pessoas.Principais pontos turisticos são o Coliseu, a Pira e o Colosseo."
+    },
+    {
+      "id": 6,
+      "name": "Sydney",
+      "image": "https://images.unsplash.com/photo-1527048272542-01226422db13?q=80&w=1495&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Sydney é a capital da Australia, com uma população estimada de 8,5 milhoes de pessoas.Principais pontos turisticos são o Opera House, o Harbour Bridge e o Harbour Bridge."
+    }
+  ]
+}

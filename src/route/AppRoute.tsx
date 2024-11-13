@@ -4,11 +4,10 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 export default function AppRoute() {
   return (
-    <NavigationContainer>
-      <SafeAreaView edges={["top"]} style={{ flex: 1 }}>
+    <SafeAreaView edges={["top"]} style={{ flex: 1 }}>
+      <NavigationContainer>
         <CustomBottomTab />
-      </SafeAreaView>
-    </NavigationContainer>
-
+      </NavigationContainer>
+    </SafeAreaView>
   )
 }
