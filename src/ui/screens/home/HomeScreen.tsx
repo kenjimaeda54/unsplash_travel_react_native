@@ -30,7 +30,7 @@ export default function HomeScreen() {
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{
           paddingBottom: 100,
-          padding: 0,
+          paddingTop: 30,
         }}
         spacing={5}
         itemDimension={width / 3}

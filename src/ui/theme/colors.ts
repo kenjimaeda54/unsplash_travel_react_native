@@ -6,4 +6,5 @@ export const colorsApp = {
   variantBlue: "#80ADA0",
   lightGreen: "#8AEA92",
   brown: "#5F5566",
+  white: "#FFFFFF"
 }
