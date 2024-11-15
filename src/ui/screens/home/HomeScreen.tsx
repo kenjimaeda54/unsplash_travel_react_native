@@ -7,7 +7,6 @@ import data from "../../../../data.json";
 import RowItem from "./view/RowItem";
 import { FlatGrid } from "react-native-super-grid";
 
-export type IPlace = typeof data.places[0]
 
 export default function HomeScreen() {
   const [searchTravel, setSearchTravel] = useState("");

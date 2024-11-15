@@ -1,9 +1,9 @@
 import { View, Text, Image, TouchableOpacity } from "react-native";
-import { IPlace } from "../HomeScreen";
 import { style } from "./rowItemStyle";
 import HeartNotFill from "../../../../../assets/icons/heart_not_fill.svg"
 import Heart from "../../../../../assets/icons/heart_fill.svg"
 import { colorsApp } from "../../../theme/colors";
+import { IPlace } from "../../../../utils/typesCommon";
 
 export default function RowItem({ data }: { data: IPlace }) {
   return (
