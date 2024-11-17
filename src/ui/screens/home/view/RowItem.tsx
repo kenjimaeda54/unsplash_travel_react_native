@@ -1,19 +1,19 @@
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { style } from "./rowItemStyle";
-import HeartNotFill from "../../../../../assets/icons/heart_not_fill.svg"
-import Heart from "../../../../../assets/icons/heart_fill.svg"
 import { colorsApp } from "../../../theme/colors";
 import { IPlace } from "../../../../utils/typesCommon";
+import { ReactNode } from "react";
 
-export default function RowItem({ data }: { data: IPlace }) {
+
+interface RowItemProps {
+  data: IPlace;
+  icon: ReactNode
+}
+
+export default function RowItem({ data, icon }: RowItemProps) {
   return (
     <View style={style.container}>
-      <TouchableOpacity style={style.containerIcon}>
-        <HeartNotFill
-          width={13}
-          height={13}
-          fill={colorsApp.white} />
-      </TouchableOpacity>
+      {icon}
       <Image
         source={{ uri: data.image }}
         style={style.image}

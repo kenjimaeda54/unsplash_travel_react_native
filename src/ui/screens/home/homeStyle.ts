@@ -21,5 +21,25 @@ export const style = StyleSheet.create({
     fontFamily: fontsPoppins.light,
     fontSize: 20,
     color: colorsApp.black
-  }
+  },
+  containerIcon: {
+    justifyContent: "center",
+    alignItems: "center",
+    position: "absolute",
+    zIndex: 1,
+    right: 20,
+    top: 20,
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    backgroundColor: colorsApp.variantBlack,
+    shadowColor: colorsApp.variantBlack,
+    shadowOffset: {
+      width: 6,
+      height: 6,
+    },
+    shadowOpacity: 1,
+    shadowRadius: 27,
+    elevation: 12
+  },
 })
