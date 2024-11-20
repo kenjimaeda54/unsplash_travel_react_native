@@ -10,13 +10,16 @@ import Heart from "../../../../assets/icons/heart_fill.svg"
 import { IPlace } from "../../../utils/typesCommon";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { keyStorageIdFavorite } from "../../../utils/constants";
-import RowItem from "../../view/rowItem/RowItem";
+import { NavigationProp, useNavigation } from "@react-navigation/native";
+import { RootNavigation } from "../../../utils/RootNavigation";
+import CardFavorite from "../../view/rowItem/CardFavorite";
 
-
+type TypeNavigation = NavigationProp<RootNavigation, 'Details'>
 
 export default function HomeScreen() {
   const [searchTravel, setSearchTravel] = useState("");
   const { width } = useWindowDimensions()
+  const { navigate } = useNavigation<TypeNavigation>()
   const [favoritePlaces, setFavoritePlaces] = useState<number[]>([])
 
   useEffect(() => {
@@ -69,24 +72,27 @@ export default function HomeScreen() {
         spacing={5}
         itemDimension={width / 3}
         data={data.places}
-        renderItem={({ item }) => <RowItem data={item} icon={
-          favoritePlaces.find(it => it === item.id) ?
-            <TouchableOpacity disabled style={style.containerIcon}>
-              <Heart
-                width={13}
-                height={13}
-                fill={colorsApp.red} />
-            </TouchableOpacity>
+        renderItem={({ item }) => <CardFavorite
 
-            :
-            <TouchableOpacity onPress={() => handleFavorite(item)} style={style.containerIcon}>
-              <HeartNotFill
-                width={13}
-                height={13}
-                fill={colorsApp.white} />
-            </TouchableOpacity>
+          onPressCard={() => navigate('Details', { id: item.id })}
+          data={item} icon={
+            favoritePlaces.find(it => it === item.id) ?
+              <TouchableOpacity disabled style={style.containerIcon}>
+                <Heart
+                  width={13}
+                  height={13}
+                  fill={colorsApp.red} />
+              </TouchableOpacity>
 
-        } />}
+              :
+              <TouchableOpacity onPress={() => handleFavorite(item)} style={style.containerIcon}>
+                <HeartNotFill
+                  width={13}
+                  height={13}
+                  fill={colorsApp.white} />
+              </TouchableOpacity>
+
+          } />}
       />
     </View>
   )

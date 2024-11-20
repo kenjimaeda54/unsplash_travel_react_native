@@ -10,11 +10,11 @@ import ProfileIconFill from "../../assets/icons/profile_fill.svg"
 import ProfileIconNotFill from "../../assets/icons/profile_not_fill.svg"
 import { useWindowDimensions, View } from "react-native";
 import { colorsApp } from "../ui/theme/colors";
-import { RootNavigation } from "../utils/RootNavigation";
+import { BottomNavigation, RootNavigation } from "../utils/RootNavigation";
 
 
 
-const { Navigator, Screen } = createBottomTabNavigator<RootNavigation>();
+const { Navigator, Screen } = createBottomTabNavigator<BottomNavigation>();
 
 export function CustomBottomTab() {
   const { height } = useWindowDimensions()
@@ -47,19 +47,19 @@ export function CustomBottomTab() {
       <Screen options={{
         tabBarIcon: ({ color, focused }) => focused ? <HomeIconFill fill={color} width={20} height={20} /> : <HomeIconNotFill fill={color} width={20} height={20} />
       }}
-        name="home"
+        name="Home"
         component={HomeScreen} />
       <Screen
         options={{
           tabBarIcon: ({ color, focused }) => focused ? <HeartIconFill fill={color} width={20} height={20} /> : <HeartIconNotFill fill={color} width={20} height={20} />
         }}
-        name="favorite"
+        name="Favorite"
         component={FavoriteScreen} />
       <Screen
         options={{
           tabBarIcon: ({ color, focused }) => focused ? <ProfileIconFill fill={color} width={25} height={25} /> : <ProfileIconNotFill fill={color} width={25} height={25} />
         }}
-        name="profile" component={ProfileScreen} />
+        name="Profile" component={ProfileScreen} />
     </Navigator>
 
   )

@@ -1,8 +1,15 @@
 import { NavigatorScreenParams } from "@react-navigation/native"
 
+export type BottomNavigation = {
+  Home: undefined
+  Favorite: undefined
+  Profile: undefined
+}
+
 export type RootNavigation = {
-  home: undefined
-  favorite: undefined
-  profile: undefined
+  Bottom: NavigatorScreenParams<BottomNavigation>
+  Details: {
+    id: number
+  }
 }
 

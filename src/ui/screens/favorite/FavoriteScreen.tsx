@@ -7,7 +7,7 @@ import { keyStorageIdFavorite } from "../../../utils/constants";
 import { IPlace } from "../../../utils/typesCommon";
 import data from "../../../../data.json";
 import { useFocusEffect } from "@react-navigation/native";
-import RowItem from "../../view/rowItem/RowItem";
+import CardFavorite from "../../view/rowItem/CardFavorite";
 
 export default function FavoriteScreen() {
   const { width } = useWindowDimensions()
@@ -41,7 +41,7 @@ export default function FavoriteScreen() {
             spacing={5}
             itemDimension={width / 3}
             data={favoritesPlaces}
-            renderItem={({ item }) => <RowItem data={item} />}
+            renderItem={({ item }) => <CardFavorite onPressCard={() => { }} data={item} />}
           />
         ) : (
           <View style={style.containerText}>
