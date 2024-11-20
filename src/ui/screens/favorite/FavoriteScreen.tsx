@@ -5,20 +5,25 @@ import { useEffect, useState } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { keyStorageIdFavorite } from "../../../utils/constants";
 import { IPlace } from "../../../utils/typesCommon";
+import data from "../../../../data.json";
+import { useFocusEffect } from "@react-navigation/native";
+import RowItem from "../../view/rowItem/RowItem";
 
 export default function FavoriteScreen() {
   const { width } = useWindowDimensions()
   const [favoritesPlaces, setFavoritePlaces] = useState<IPlace[]>([])
 
-  useEffect(() => {
+
+  useFocusEffect(() => {
     handleGetJsonFavorite()
-  }, [])
+  })
 
   async function handleGetJsonFavorite() {
     const json = await AsyncStorage.getItem(keyStorageIdFavorite)
     if (json) {
-      const favoritePlaces = JSON.parse(json)
-      setFavoritePlaces(favoritePlaces)
+      const favoritePlaces = JSON.parse(json) as number[]
+      const filterFavorite = data.places.filter(place => favoritePlaces.includes(place.id))
+      setFavoritePlaces(filterFavorite)
     }
   }
 
@@ -36,7 +41,7 @@ export default function FavoriteScreen() {
             spacing={5}
             itemDimension={width / 3}
             data={favoritesPlaces}
-            renderItem={({ item }) => <Text>{item.name}</Text>}
+            renderItem={({ item }) => <RowItem data={item} />}
           />
         ) : (
           <View style={style.containerText}>

@@ -4,19 +4,24 @@ import { colorsApp } from "../../theme/colors";
 import { useEffect, useState } from "react";
 import { fontsPoppins } from "../../theme/fonts";
 import data from "../../../../data.json";
-import RowItem from "./view/RowItem";
 import { FlatGrid } from "react-native-super-grid";
 import HeartNotFill from "../../../../assets/icons/heart_not_fill.svg"
 import Heart from "../../../../assets/icons/heart_fill.svg"
 import { IPlace } from "../../../utils/typesCommon";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { keyStorageIdFavorite } from "../../../utils/constants";
+import RowItem from "../../view/rowItem/RowItem";
 
 
 
 export default function HomeScreen() {
   const [searchTravel, setSearchTravel] = useState("");
   const { width } = useWindowDimensions()
+  const [favoritePlaces, setFavoritePlaces] = useState<number[]>([])
+
+  useEffect(() => {
+    handleGetJsonFavorite()
+  }, [])
 
   const handleFavorite = async (item: IPlace) => {
     const findItem = data.places.find(place => place.id === item.id)
@@ -24,12 +29,23 @@ export default function HomeScreen() {
     if (findItem && getListIds) {
       const addNewItem = [...JSON.parse(getListIds), findItem.id]
       await AsyncStorage.setItem(keyStorageIdFavorite, JSON.stringify(addNewItem))
+      handleGetJsonFavorite()
       return
     }
     if (findItem && !getListIds) {
       await AsyncStorage.setItem(keyStorageIdFavorite, JSON.stringify([findItem.id]))
+      handleGetJsonFavorite()
       return
     }
+  }
+
+  function handleGetJsonFavorite() {
+    AsyncStorage.getItem(keyStorageIdFavorite).then(json => {
+      if (json) {
+        const favoritePlaces = JSON.parse(json)
+        setFavoritePlaces(previous => [...previous, ...favoritePlaces])
+      }
+    })
   }
 
   return (
@@ -54,12 +70,21 @@ export default function HomeScreen() {
         itemDimension={width / 3}
         data={data.places}
         renderItem={({ item }) => <RowItem data={item} icon={
-          <TouchableOpacity onPress={() => handleFavorite(item)} style={style.containerIcon}>
-            <HeartNotFill
-              width={13}
-              height={13}
-              fill={colorsApp.white} />
-          </TouchableOpacity>
+          favoritePlaces.find(it => it === item.id) ?
+            <TouchableOpacity disabled style={style.containerIcon}>
+              <Heart
+                width={13}
+                height={13}
+                fill={colorsApp.red} />
+            </TouchableOpacity>
+
+            :
+            <TouchableOpacity onPress={() => handleFavorite(item)} style={style.containerIcon}>
+              <HeartNotFill
+                width={13}
+                height={13}
+                fill={colorsApp.white} />
+            </TouchableOpacity>
 
         } />}
       />

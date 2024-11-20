@@ -1,13 +1,12 @@
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { style } from "./rowItemStyle";
-import { colorsApp } from "../../../theme/colors";
-import { IPlace } from "../../../../utils/typesCommon";
+import { IPlace } from "../../../utils/typesCommon";
 import { ReactNode } from "react";
 
 
 interface RowItemProps {
   data: IPlace;
-  icon: ReactNode
+  icon?: ReactNode
 }
 
 export default function RowItem({ data, icon }: RowItemProps) {
