@@ -10,10 +10,11 @@ import ProfileIconFill from "../../assets/icons/profile_fill.svg"
 import ProfileIconNotFill from "../../assets/icons/profile_not_fill.svg"
 import { useWindowDimensions, View } from "react-native";
 import { colorsApp } from "../ui/theme/colors";
+import { RootNavigation } from "../utils/RootNavigation";
 
 
 
-const { Navigator, Screen } = createBottomTabNavigator();
+const { Navigator, Screen } = createBottomTabNavigator<RootNavigation>();
 
 export function CustomBottomTab() {
   const { height } = useWindowDimensions()
