@@ -57,7 +57,7 @@ export function CustomBottomTab() {
         component={FavoriteScreen} />
       <Screen
         options={{
-          tabBarIcon: ({ color, focused }) => focused ? <ProfileIconFill fill={color} width={25} height={25} /> : <ProfileIconNotFill fill={color} width={25} height={25} />
+          tabBarIcon: ({ color, focused }) => focused ? <ProfileIconFill fill={color} width={25} height={25} /> : <ProfileIconNotFill fill={color} width={25} height={25} />,
         }}
         name="Profile" component={ProfileScreen} />
     </Navigator>
