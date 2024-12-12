@@ -1,8 +1,7 @@
-import { createDrawerNavigator, getDrawerStatusFromState } from "@react-navigation/drawer"
+import { createDrawerNavigator } from "@react-navigation/drawer"
 import { DrawerNavigation, RootNavigation } from "../utils/RootNavigation"
 import FavoriteScreen from "../ui/screens/favorite/FavoriteScreen"
 import ProfileScreen from "../ui/screens/profile/ProfileScreen"
-import { useEffect } from "react"
 import { NavigationProp, useNavigation } from "@react-navigation/native"
 
 
